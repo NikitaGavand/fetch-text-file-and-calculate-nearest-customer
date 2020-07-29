@@ -42,4 +42,6 @@ I have written JUnit in com.intercom.home.assignment.test package
 I have also perform manual testing for jsp pages and created error.jsp for any UI input errors
 
 Please Note:
-All the input parameters are mandatory
+1. All the input parameters are mandatory
+2. I have also pushed the output.txt file into the repository to see the output
+
