@@ -17,9 +17,21 @@ It consists of 3 input parameters mentioned above.
 and a submit button which generates the text file.
 
 Example given:
-path:https://s3.amazonaws.com/intercom-take-home-test/customers.txt
+Customer Details Path: https://s3.amazonaws.com/intercom-take-home-test/customers.txt
 Latitude: 53.339428
 Longitude:-6.257664
 and click on the submit button
-This will automatically download the text file
+This will automatically download the text file(Output.txt)
 It contains User Id(ascending order) and customer Names which is in 100 kms radius
+
+
+Test Cases:
+
+I have written JUnit in com.intercom.home.assignment.test package
+1. Controller Test
+2. Service Test
+
+I have also perform manual testing for jsp pages and created error.jsp for any UI input errors
+
+Please Note:
+All the input parameters are mandatory
